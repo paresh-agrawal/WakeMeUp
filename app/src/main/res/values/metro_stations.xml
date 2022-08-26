@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="metro_stations_array">
+        <item>Hesaraghatta Cross (Nagasandra)</item>
+        <item>DasarahalliJalahalli</item>
+        <item>Peenya Industry</item>
+        <item>Peenya</item>
+        <item>Yeshwanthpur Industry</item>
+        <item>Yeshwanthpur</item>
+        <item>Sandal Soap Factory</item>
+        <item>Mahalakshmi</item>
+        <item>Rajajinagar</item>
+        <item>Kuvempu Road</item>
+        <item>Srirampura</item>
+        <item>Sampige Road</item>
+        <item>Majestic</item>
+        <item>Chickpet</item>
+        <item>KR Market</item>
+        <item>National College</item>
+        <item>Lalbagh</item>
+        <item>Southend Circle</item>
+        <item>Jayanagar</item>
+        <item>Rashtreeya Vidyalaya Road</item>
+        <item>Banashankari</item>
+        <item>Jayaprakash Nagar</item>
+        <item>Yelachenahalli</item>
+        <item>Mysore Road</item>
+        <item>Deepanjali Nagar</item>
+        <item>Attiguppe</item>
+        <item>Vijayanagar</item>
+        <item>Hosahalli</item>
+        <item>Magadi Road</item>
+        <item>City Railway Station</item>
+        <item>Sir M. Visveshwaraya</item>
+        <item>Vidhana Soudha</item>
+        <item>Cubbon Park</item>
+        <item>Mahatma Gandhi Road</item>
+        <item>Trinity</item>
+        <item>Halasuru</item>
+        <item>Indiranagar</item>
+        <item>Swami Vivekananda Road</item>
+        <item>Baiyappanahalli</item>
+        <item>North Ramp</item>
+        <item>South Ramp</item>
+        <item>East Ramp</item>
+        <item>West Ramp</item>
+        <item>Baiyappanahalli Depot</item>
+        <item>Peenya Depot</item>
+        <item>Jyothipuram</item>
+        <item>Mahadevapura</item>
+        <item>Gurudacharpalya</item>
+        <item>Doddanakundi Industrial Area</item>
+        <item>Visvesvaraya Industrial Area</item>
+        <item>Kundalahalli</item>
+        <item>Vydehi Hospital</item>
+        <item>Sri Satya Sai Hospital</item>
+        <item>ITPL</item>
+        <item>Kadugodi</item>
+        <item>Whitefield</item>
+        <item>Nayandahalli</item>
+        <item>Rajarajeshwari Nagar</item>
+        <item>Bangalore University</item>
+        <item>Pattanagere</item>
+        <item>Mailasandra</item>
+        <item>Kengeri</item>
+        <item>Challegatta</item>
+        <item>Manjunathanagar</item>
+        <item>Jindal</item>
+        <item>BIEC</item>
+        <item>Anjanapura Cross Road</item>
+        <item>Krishna Leela Park</item>
+        <item>Vajrahalli</item>
+        <item>Thalgattapura</item>
+        <item>Anjanapura Township</item>
+        <item>Ragigudda</item>
+        <item>Jayadeva Hospital</item>
+        <item>BTM Layout</item>
+        <item>HSR Layout</item>
+        <item>Oxford College</item>
+        <item>Muneshwara Nagar</item>
+        <item>Chikkabegur</item>
+        <item>Basapura Road</item>
+        <item>Hosa Road</item>
+        <item>Electronic City-I</item>
+        <item>Electronic City-II</item>
+        <item>Huskur Road</item>
+        <item>Hebbagodi</item>
+        <item>Bommasandra</item>
+        <item>Gottigere</item>
+        <item>Hulimavu</item>
+        <item>IIM-Bangalore</item>
+        <item>JP Nagar 4th Phase</item>
+        <item>Swagath Road Cross</item>
+        <item>Dairy Circle</item>
+        <item>MICO Industries</item>
+        <item>Langford Town</item>
+        <item>Vellara Road</item>
+        <item>MG Road</item>
+        <item>Shivaji Nagar</item>
+        <item>Cantonment</item>
+        <item>Pottery Town</item>
+        <item>Tannery Road</item>
+        <item>Venkateshpura</item>
+        <item>Arabic College</item>
+        <item>Nagawara</item>
+        <item>Dairy Circle South Ramp</item>
+        <item>Nagawara North Ramp</item>
+        <item>Challegatta Depot</item>
+        <item>Whitefield Depot</item>
+        <item>Kothanur Depot</item>
+        <item>Hebbagodi Depot</item>
+        <item>Central Silkboard</item>
+        <item>HSR Layout</item>
+        <item>Agara Lake</item>
+        <item>Ibbalur</item>
+        <item>Bellandur</item>
+        <item>Kadubeesanahalli</item>
+        <item>Kodibisanahalli</item>
+        <item>Marathahalli</item>
+        <item>ISRO</item>
+        <item>Doddanakundi</item>
+        <item>DRDO Sports Complex</item>
+        <item>Mahadevpura</item>
+        <item>KR Puram</item>
+        <item>Central Silkboard</item>
+    </string-array>
+</resources>

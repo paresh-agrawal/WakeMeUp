@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WakeMeUp</string>
+    <string name="title_alarm">Alarm</string>
+    <string name="title_metro_map">Metro Map</string>
+    <string name="title_recharge">Recharge</string>
+    <string name="find_route">Find\nRoute</string>
+</resources>
