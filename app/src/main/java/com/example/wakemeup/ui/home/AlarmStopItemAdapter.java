@@ -49,7 +49,7 @@ public class AlarmStopItemAdapter extends RecyclerView.Adapter<AlarmStopItemAdap
         holder.minutes.setText(itemList1.get(position).getMinutesToTravel());
         holder.stops.setText(itemList1.get(position).getStopInBetween());
         holder.destination.setText(itemList1.get(position).getDestination());
-        holder.alarmToggle.setChecked(itemList1.get(position).isSwitchAlarm());
+        //holder.alarmToggle.setChecked(itemList1.get(position).isSwitchAlarm());
     }
 
     @Override
@@ -63,7 +63,7 @@ public class AlarmStopItemAdapter extends RecyclerView.Adapter<AlarmStopItemAdap
         TextView minutes;
         TextView stops;
         TextView destination;
-        SwitchCompat alarmToggle;
+        ImageView alarmToggle;
 
 
         public ViewHolder(@NonNull View itemView) {

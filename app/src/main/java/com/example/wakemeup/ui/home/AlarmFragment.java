@@ -25,6 +25,14 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.wakemeup.R;
 import com.example.wakemeup.databinding.FragmentAlarmBinding;
 
+import java.io.BufferedInputStream;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -41,6 +49,7 @@ public class AlarmFragment extends Fragment implements LocationListener {
     String provider;
     protected String latitude, longitude;
     protected boolean gps_enabled, network_enabled;
+    String line;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -60,24 +69,23 @@ public class AlarmFragment extends Fragment implements LocationListener {
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
 
-        //initData();
-
-        recyclerView.setAdapter(new AlarmStopItemAdapter(initData(), getContext()));
 
         txtLat = root.findViewById(R.id.tv_lat_long);
 
         locationManager = (LocationManager) this.getActivity().getSystemService(Context.LOCATION_SERVICE);
-        if (ActivityCompat.checkSelfPermission(this.getActivity(), Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this.getActivity(), Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            // TODO: Consider calling
-            //    ActivityCompat#requestPermissions
-            // here to request the missing permissions, and then overriding
-            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-            //                                          int[] grantResults)
-            // to handle the case where the user grants the permission. See the documentation
-            // for ActivityCompat#requestPermissions for more details.
+        if (ActivityCompat.checkSelfPermission(this.getActivity(),
+                Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED &&
+                ActivityCompat.checkSelfPermission(this.getActivity(),
+                Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this.getActivity(), new String[] { Manifest.permission.ACCESS_FINE_LOCATION }, 200);
             return root;
         }
         locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, this);
+
+        System.out.println("asfasfsf");
+        new GetMethodDemo().execute("http://3.108.54.182:3000/api/v1/location?start=Hosahalli&destination=Mahalakshmi");
+
+
 
         return root;
     }
@@ -95,10 +103,7 @@ public class AlarmFragment extends Fragment implements LocationListener {
     private List<Model> initData() {
 
         itemList = new ArrayList<>();
-        itemList.add(new Model(R.color.purple_700, "Silk Board", "12", "6", true));
-        /*itemList.add(new Model(R.drawable.ic_baseline_alarm_24,"video 1"));
-        itemList.add(new Model(R.drawable.ic_baseline_card_24,"video 1"));
-        itemList.add(new Model(R.drawable.ic_baseline_map_24,"video 1"));*/
+        itemList.add(new Model(R.color.purple_700, line, "12 minutes", "6 stops", true));
 
 
 
